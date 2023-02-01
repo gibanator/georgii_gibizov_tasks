@@ -34,13 +34,16 @@ nav {
   text-decoration-thickness: 3px;
 }
 .lista {
-  color: black;
   text-decoration: none;
 }
 .lista a:hover {
   color: rgb(200,200,200);
   text-decoration: none;
 }
+.col-sm-3{
+  background-color: #1F2836;
+}
+
 .dropdown-menu {
   background-color: #1F2836 !important;
   border-color: #45a29e !important;

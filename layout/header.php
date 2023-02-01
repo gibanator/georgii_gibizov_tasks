@@ -60,7 +60,7 @@
     </div>
 </div> 
   <div class="row" style="margin-top: 10px; margin-bottom: 10px; margin-right: 5px;">
-    <div class="col-sm-3" style="background-color: rgba(228, 235, 194, 0.353);">
+    <div class="col-sm-3" style="background-color: #1F2836; color: rgb(200,200,200);">
       <h3>List of Tasks</h3>
       <ul>
         <li><a class= "lista" href="ex1.php">Exercise 1</a></li>
