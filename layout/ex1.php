@@ -1,7 +1,6 @@
 <?php $title = "Ex 1";
-$titleh1 = "PHP is interesting";
 include "header.php" ?>
-<h1><?php echo $titleh1 ?></h1>
+
 <h3>3.1 Write a simple PHP script to print your information (Name and your groupid).    
 </h3>
 <?php
@@ -19,6 +18,8 @@ echo date("d.m.y");
 ?>
 <h3>3.4 $title = "PHP is interesting”. Put this variable as a title marked as h1 (heading 1) in your HTML document.</h3> 
 <p>done. had to make is as '$titleh1' because '$title' is already occupied by &lt;title&gt; tag.</p>
+<?php $titleh1 = "PHP is interesting";
+echo "<h1> $titleh1 </h1>" ?>
 <h3>3.5 $g1=5, $g2=4, $g3=5. These are the grades for 3 students in the course. Use HTML table into echo and include 3 columns S.n., Name, and grade. </h3>
 <?php $g1=5; $g2=4; $g3=5; 
 echo  
@@ -44,7 +45,7 @@ echo
   <td>$g3</td>
 </tr>
 </table>" ?>
-
+<h3>4. Take a screenshot that verifies, you have set up the development environment and include it as an image in ex1.php.</h3>
 <?php include "footer.php" ?>
 
 
