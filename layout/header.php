@@ -5,6 +5,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title><?php if(isset($title) && !empty($title)) { echo $title; } else { echo "Default title tag"; } ?></title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="../styles/styleTFT.css" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">    
 <style>
@@ -14,41 +15,55 @@
     </style>
 </head>
 <body>
-  <div class="container" >
-    <div class="row">
-  <nav class="navbar navbar-expand-lg" style="background-color: rgb(65, 7, 109);" >
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.php">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="index.php">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="ex1.php">Exercise 1</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contactus.php">Contact us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="aboutus.php">About us</a>
-        </li>
-        
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+<div id="navbar">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"> <img src="../img/logoFinal.png" alt="img" width="80"
+                        height="80"></a>
+                <p>
+                <?php if(isset($title) && !empty($title)) { echo $title; } else { echo "Default title tag"; } ?>
+                </p>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 75vh;">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.php"
+                                style="margin-right: 10px;">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" style="color: white;">
+                                Tasks
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" href="ex1.php">Exercise 1</a></li>
+                                <li><a class="dropdown-item" href="#">Exercise 2</a>
+                                </li>
+                                <li><a class="dropdown-item" href="LoRnew.html">Exercise 3</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutus.php" style="margin-right: 10px;">About
+                                us</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </div>
-  </div>
-</nav>
 </div> 
   <div class="row" style="margin-top: 10px; margin-bottom: 10px; margin-right: 5px;">
     <div class="col-sm-3" style="background-color: rgba(228, 235, 194, 0.353);">
       <h3>List of Tasks</h3>
-      some thing here
+      <ul>
+        <li><a class= "lista" href="ex1.php">Exercise 1</a></li>
+      </ul>
     </div>
     <div class="col-sm-9">

@@ -1,4 +1,4 @@
-<?php $title = "Ex 1";
+<?php $title = "Exercise 1";
 include "header.php" ?>
 
 <h5>3.1. Write a simple PHP script to print your information (Name and your groupid).    
@@ -47,7 +47,7 @@ echo
 </table>"; ?>
 <h5>4. Take a screenshot that verifies, you have set up the development environment and include it as an image in ex1.php.    
 </h5>
-<img width=100% src="../img/sc_task4.png" alt="task4">
+<img width=90% src="../img/sc_task4.png" alt="task4">
 <?php include "footer.php" ?>
 
 
