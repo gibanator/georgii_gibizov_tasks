@@ -7,7 +7,15 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href="../styles/styleTFT.css" rel="stylesheet">
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">  
+    <!-- icons  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
 <style>
   a, .nav-link,.navbar-brand {
     color: white;
@@ -59,9 +67,9 @@
         </nav>
     </div>
 </div> 
-  <div class="row" style="margin-top: 10px; margin-bottom: 10px; margin-right: 5px;">
+  <div class="row" style="margin-top:10px; margin-bottom: 10px; margin-right: 0px;">
     <div class="col-sm-3" style="background-color: #1F2836; color: rgb(200,200,200);">
-      <h3>List of Tasks</h3>
+      <h3 style="margin-top:3px; margin-left:5px">List of Tasks</h3>
       <ul>
         <li><a class= "lista" href="ex1.php">Exercise 1</a></li>
       </ul>

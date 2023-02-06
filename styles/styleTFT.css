@@ -1,7 +1,10 @@
 .navbar {
   background-color: #1F2836;
 }
-
+body{
+  background-color: rgb(20,20,20) !important;
+  color:#C5C6C7 !important;
+}
 nav {
   width: 100%;
   height: fit-content;
@@ -34,14 +37,20 @@ nav {
   text-decoration-thickness: 3px;
 }
 .lista {
+  color: rgb(200,200,200);
   text-decoration: none;
 }
-.lista a:hover {
-  color: rgb(200,200,200);
+.lista:hover {
+  color: #45a29e !important;
   text-decoration: none;
 }
 .col-sm-3{
   background-color: #1F2836;
+}
+
+.col-sm-9{
+  margin-right: 0 !important;
+  padding-right: 0 !important;
 }
 
 .dropdown-menu {
@@ -109,5 +118,9 @@ nav {
   background-color: #AfAfAf;
   margin: 200px auto;
   padding: 20px 0px 20px 0px;
+}
+
+h5 {
+  margin-top: 5px;
 }
 
