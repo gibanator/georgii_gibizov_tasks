@@ -32,7 +32,7 @@ Then apply bootstrap style to the form.
 </div>
 </div>
 
-<button type="submit" class="btn btn-primary">Submit</button>
+<button type="submit" class="btn btn-primary" style="margin-top: 5px">Submit</button>
 
 </form>
 <h5>
