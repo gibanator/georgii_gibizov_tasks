@@ -1,7 +1,6 @@
 <?php $title = "Exercise 1";
 include "header.php" ?>
 
-<link href="../styles/styleTFT.css" rel="stylesheet">
 
 <h5>3.1. Write a simple PHP script to print your information (Name and your groupid).    
 </h5>

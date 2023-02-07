@@ -5,12 +5,13 @@ include "header.php" ?>
 
 <h5>
 1 & 2. Create a simple html form to get Firstname and Lastname from the user 
-and use echo echo statement to print using &lt;h3&gt; tag: Hello …., You are welcome to my site. 
+and use echo echo statement to print using &lt;h3&gt; tag: Hello …., You are welcome to my site.
+Then apply bootstrap style to the form. 
 </h5>
 <form action="action.php" method="post" class="was-validated">
 
-<div class="row">
-<div class="col-md">
+<div class="row" style="margin: 0">
+<div class="col-md" style="padding-left: 0; padding-right:10px">
 <div class="form-floating">
   <input class="form-control" name="fname" placeholder="Your first name" id="firstName" required></input>
   <label for="firstName">First Name</label>
@@ -20,7 +21,7 @@ and use echo echo statement to print using &lt;h3&gt; tag: Hello …., You are w
 </div>
 </div>
 
-<div class="col-md">
+<div class="col-md" style="padding-left: 0; padding-right:10px">
 <div class="form-floating">
   <input class="form-control" name="lname" placeholder="Your last name" id="lastName" required></input>
   <label for="lastName">Last Name</label>
@@ -35,7 +36,7 @@ and use echo echo statement to print using &lt;h3&gt; tag: Hello …., You are w
 
 </form>
 <h5>
-3. Prepare a simple html table and apply bootstrap style to the table. You may use the same table that you did in 3.5.
+3. Prepare a simple html table and apply bootstrap style to the table.
 </h5>
 <table class="table">
   <thead>
