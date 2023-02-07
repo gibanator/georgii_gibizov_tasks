@@ -40,10 +40,12 @@ nav {
   color: rgb(200,200,200);
   text-decoration: none;
 }
+
 .lista:hover {
   color: #45a29e !important;
   text-decoration: none;
 }
+
 .col-sm-3{
   background-color: #1F2836;
 }
@@ -124,3 +126,6 @@ h5 {
   margin-top: 5px;
 }
 
+.table{
+  color: #C5C6C7 !important;
+}

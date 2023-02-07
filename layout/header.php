@@ -16,12 +16,6 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 </head>
-<style>
-  a, .nav-link,.navbar-brand {
-    color: white;
-}
-    </style>
-</head>
 <body>
 <div id="navbar">
         <nav class="navbar navbar-expand-lg ">
@@ -51,7 +45,7 @@
                                 <li><a class="dropdown-item" href="ex1.php">Exercise 1</a></li>
                                 <li><a class="dropdown-item" href="#">Exercise 2</a>
                                 </li>
-                                <li><a class="dropdown-item" href="LoRnew.html">Exercise 3</a>
+                                <li><a class="dropdown-item" href="variable.php">Exercise 3</a>
                                 </li>
                             </ul>
                         </li>
@@ -72,6 +66,8 @@
       <h3 style="margin-top:3px; margin-left:5px">List of Tasks</h3>
       <ul>
         <li><a class= "lista" href="ex1.php">Exercise 1</a></li>
+        <li><a class= "lista" href="ex1.php">Exercise 2</a></li>
+        <li><a class= "lista" href="variable.php">Exercise 3</a></li>
       </ul>
     </div>
     <div class="col-sm-9">

@@ -15,7 +15,7 @@
                         class="fab fa-instagram"></i></a>
 
                 <!-- Github -->
-                <a class="btn text-white btn-floating m-1" style="background-color: #333333;" href="#!" role="button"><i
+                <a class="btn text-white btn-floating m-1" style="background-color: #333333;" href="https://github.com/gibanator/georgii_gibizov_tasks" role="button"><i
                         class="fab fa-github"></i></a>
             </section>
             <!-- Section: Social media -->
@@ -27,6 +27,10 @@
             © 2023 Copyright: Team 1
         </div>
         <!-- Copyright -->
+        <!-- Last modified -->
+        <?php 
+        echo "Content last changed on " .date("l, d F Y h:ia", filemtime(basename($_SERVER['SCRIPT_NAME'])));
+        ?>
     </footer>
 </div>
 </div>

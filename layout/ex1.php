@@ -49,7 +49,7 @@ echo
 </table>"; ?>
 <h5>4. Take a screenshot that verifies, you have set up the development environment and include it as an image in ex1.php.    
 </h5>
-<img style="margin: auto;" width=70% src="../img/sc_task4.png" alt="task4">
+<img style="margin: auto;" width=80% src="../img/sc_task4.png" alt="task4">
 <?php include "footer.php" ?>
 
 
