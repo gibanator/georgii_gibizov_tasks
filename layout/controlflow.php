@@ -34,7 +34,7 @@ else {
 ?>
 
 <h5>3. Write a program to grade students based on their total score for a subject. 
-Use variable to hold the total score. The grading scheme is: 
+Use variable to hold the total score.
 </h5>
 
 <?php
@@ -115,12 +115,28 @@ if ($_POST) {
 If someone is using Chrome it should print, you are using Google Chrome...
 </h5>
 
-<?php 
-$browser = $_SERVER['HTTP_USER_AGENT'];
-switch {
-    
+<?php
+echo $_SERVER["HTTP_USER_AGENT"] . "<br>";
+$u_agent = $_SERVER['HTTP_USER_AGENT'];
+if(preg_match('/Firefox/i',$u_agent)){
+    $bname = 'Mozilla Firefox';
 }
+elseif(preg_match('/OPR/i',$u_agent)){
+    $bname = 'Opera';
+}
+elseif(preg_match('/Chrome/i',$u_agent)){
+    $bname = 'Google Chrome';
+}
+elseif(preg_match('/Safari/i',$u_agent)){
+    $bname = 'Safari';
+}
+elseif(preg_match('/Edge/i',$u_agent)){
+    $bname = 'Edge';
+}
+
+echo "Your browser: " . $bname;
 ?>
+
 
 
 <?php include "footer.php" ?>

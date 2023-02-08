@@ -46,6 +46,8 @@
                                 </li>
                                 <li><a class="dropdown-item" href="variable.php">Exercise 3</a>
                                 </li>
+                                <li><a class="dropdown-item" href="controlflow.php">Exercise 4</a>
+                                </li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -67,6 +69,7 @@
         <li><a class= "lista" href="ex1.php">Exercise 1</a></li>
         <li><a class= "lista" href="ex1.php">Exercise 2</a></li>
         <li><a class= "lista" href="variable.php">Exercise 3</a></li>
+        <li><a class= "lista" href="controlflow.php">Exercise 4</a></li>
       </ul>
     </div>
     <div class="col-sm-9">
