@@ -115,28 +115,41 @@ if ($_POST) {
 If someone is using Chrome it should print, you are using Google Chrome...
 </h5>
 
-<?php
-echo $_SERVER["HTTP_USER_AGENT"] . "<br>";
-$u_agent = $_SERVER['HTTP_USER_AGENT'];
-if(preg_match('/Firefox/i',$u_agent)){
-    $bname = 'Mozilla Firefox';
-}
-elseif(preg_match('/OPR/i',$u_agent)){
-    $bname = 'Opera';
-}
-elseif(preg_match('/Chrome/i',$u_agent)){
-    $bname = 'Google Chrome';
-}
-elseif(preg_match('/Safari/i',$u_agent)){
-    $bname = 'Safari';
-}
-elseif(preg_match('/Edge/i',$u_agent)){
-    $bname = 'Edge';
+<?php 
+$ua = $_SERVER['HTTP_USER_AGENT'];
+$user_browser = 'Other browser';
+$browser_arr = ["Firefox/","Chrome/","Safari/", "Edge/", "OPR/"];
+
+foreach ($browser_arr as $browser){
+    if (strpos($ua, $browser) !== false){
+        $user_browser = $browser;
+        break;
+    }
 }
 
-echo "Your browser: " . $bname;
+switch ($user_browser) {
+    case 'Firefox/':
+        $user_browser = 'Mozilla Firefox';
+        break;
+
+    case 'Chrome/':
+        $user_browser = 'Google Chrome';
+        break;
+
+    case 'Safari/':
+        $user_browser = 'Safari';
+        break;
+    
+    case 'Edge/':
+        $user_browser = 'Microsoft Edge';
+        break;
+
+    case 'OPR/':
+        $user_browser = 'Opera';
+        break;
+}
+echo "You are using " . $user_browser . ".";
 ?>
-
 
 
 <?php include "footer.php" ?>
