@@ -151,5 +151,4 @@ switch ($user_browser) {
 echo "You are using " . $user_browser . ".";
 ?>
 
-
 <?php include "footer.php" ?>
