@@ -1,7 +1,7 @@
 <?php $title = "Exercise 3";
 include "header.php" ?>
 
-<h2> Exercise 3. In-class Task Variable & Operators </h3>
+<h2> 3. In-class Task Variable & Operators </h3>
 
 <h5>
 1 & 2. Create a simple html form to get Firstname and Lastname from the user 

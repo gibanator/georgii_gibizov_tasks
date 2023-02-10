@@ -1,7 +1,7 @@
 <?php $title = "Exercise 1";
 include "header.php" ?>
 
-
+<h2> 1. In-class Task. </h3>
 <h5>3.1. Write a simple PHP script to print your information (Name and your groupid).    
 </h5>
 <?php

@@ -1,7 +1,7 @@
 <?php $title = "Exercise 4";
 include "header.php" ?>
 
-<h2>In-class Task Control flow and loops</h2>
+<h2>4. In-class Task Control flow and loops</h2>
 
 <h5>1. Write a script that gets the current month and prints one of the following responses, 
 depending on whether it's August or not
