@@ -1,7 +1,7 @@
 <?php $title = "Exercise 5";
 include "header.php" ?>
 
-<h2> 5. In-class Task Arrays. </h3>
+<h2> 5. In-class Task Arrays. </h2>
 
 <h5>1. Write a php script to display courses as list. Use &lt;li&gt;</h5>
 
