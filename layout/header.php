@@ -41,12 +41,16 @@
                                 Tasks
                             </a>
                             <ul class="dropdown-menu dropdown-menu-end">
-                                <li><a class="dropdown-item" href="ex1.php">Exercise 1</a></li>
+                                <li><a class="dropdown-item" href="../layout/ex1.php">Exercise 1</a></li>
                                 <li><a class="dropdown-item" href="#">Exercise 2</a>
                                 </li>
-                                <li><a class="dropdown-item" href="variable.php">Exercise 3</a>
+                                <li><a class="dropdown-item" href="../layout/variable.php">Exercise 3</a>
                                 </li>
-                                <li><a class="dropdown-item" href="controlflow.php">Exercise 4</a>
+                                <li><a class="dropdown-item" href="../layout/controlflow.php">Exercise 4</a>
+                                </li>
+                                <li><a class="dropdown-item" href="../layout/array.php">Exercise 5</a>
+                                </li>
+                                <li><a class="dropdown-item" href="../crud/create.php">Exercise 6 (CRUD)</a>
                                 </li>
                             </ul>
                         </li>
@@ -66,10 +70,12 @@
     <div class="col-sm-3" style="background-color: #1F2836; color: rgb(200,200,200);">
       <h3 style="margin-top:3px; margin-left:5px">List of Tasks</h3>
       <ul>
-        <li><a class= "lista" href="ex1.php">Exercise 1</a></li>
-        <li><a class= "lista" href="ex1.php">Exercise 2</a></li>
-        <li><a class= "lista" href="variable.php">Exercise 3</a></li>
-        <li><a class= "lista" href="controlflow.php">Exercise 4</a></li>
+        <li><a class= "lista" href="../layout/ex1.php">Exercise 1</a></li>
+        <li><a class= "lista" href="#">Exercise 2</a></li>
+        <li><a class= "lista" href="../layout/variable.php">Exercise 3</a></li>
+        <li><a class= "lista" href="../layout/controlflow.php">Exercise 4</a></li>
+        <li><a class= "lista" href="../layout/array.php">Exercise 5</a></li>
+        <li><a class= "lista" href="../crud/create.php">Exercise 6 (CRUD)</a></li>
       </ul>
     </div>
     <div class="col-sm-9">
