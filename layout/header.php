@@ -19,7 +19,7 @@
 <div id="navbar">
         <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.php"> <img src="../img/logoFinal.png" alt="img" width="80"
+                <a class="navbar-brand" href="../layout/index.php"> <img src="../img/logoFinal.png" alt="img" width="80"
                         height="80"></a>
                 <p>
                 <?php if(isset($title) && !empty($title)) { echo $title; } else { echo "Default title tag"; } ?>
