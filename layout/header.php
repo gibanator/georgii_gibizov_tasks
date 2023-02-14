@@ -50,12 +50,14 @@
                                 </li>
                                 <li><a class="dropdown-item" href="../layout/array.php">Exercise 5</a>
                                 </li>
-                                <li><a class="dropdown-item" href="../crud/create.php">Exercise 6 (CRUD)</a>
+                                <li><a class="dropdown-item" href="../crud/create.php">Exercise 6 (CRUD Create)</a>
+                                </li>
+                                <li><a class="dropdown-item" href="../crud/read.php">Exercise 7 (CRUD Read)</a>
                                 </li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="aboutus.php" style="margin-right: 10px;">About
+                            <a class="nav-link" href="../layout/aboutus.php" style="margin-right: 10px;">About
                                 us</a>
                         </li>
 
@@ -75,7 +77,13 @@
         <li><a class= "lista" href="../layout/variable.php">Exercise 3</a></li>
         <li><a class= "lista" href="../layout/controlflow.php">Exercise 4</a></li>
         <li><a class= "lista" href="../layout/array.php">Exercise 5</a></li>
-        <li><a class= "lista" href="../crud/create.php">Exercise 6 (CRUD)</a></li>
+        <li>CRUD app
+            <ul>
+                <li><a class= "lista" href="../crud/create.php">Exercise 6 (Create)</a></li>
+                <li><a class= "lista" href="../crud/read.php">Exercise 7 (Read)</a></li>
+            </ul>
+        </li>
+        
       </ul>
     </div>
     <div class="col-sm-9">

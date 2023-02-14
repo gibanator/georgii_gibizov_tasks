@@ -29,7 +29,15 @@ nav {
   line-height: 25px;
   border-radius: 4px;
 }
-
+.qqq {
+  color: rgb(200, 200, 200);
+  text-decoration: none;
+}
+.qqq:hover{
+  color: #45a29e !important;
+  text-decoration: underline;
+  text-decoration-color: #45a29e;
+}
 .navbar a:hover {
   color: #45a29e !important;
   text-decoration: underline;
