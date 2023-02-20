@@ -86,4 +86,5 @@ $row = mysqli_fetch_array($res);
             echo "Failed to delete your info";
         }
     }
+include '../layout/footer.php';
 ?>
