@@ -56,6 +56,8 @@
                                 </li>
                                 <li><a class="dropdown-item" href="../crud/read.php">Exercise 7 (CRUD Read)</a>
                                 </li>
+                                <li><a class="dropdown-item" href="../layout/jsinclass.php">JS</a>
+                                </li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -85,7 +87,8 @@
                 <li><a class= "lista" href="../crud/read.php">Exercise 7 (Read)</a></li>
             </ul>
         </li>
-        
+        <li><a class= "lista" href="../layout/jsinclass.php">JavaScript</a></li>
+
       </ul>
     </div>
-    <div class="col-sm-9">
+    <div class="col-sm-9" id="page-body">

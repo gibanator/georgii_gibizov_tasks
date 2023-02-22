@@ -2,12 +2,12 @@
 $title = "A simple CRUD app";
 include "../layout/header.php"; ?>
 
-<form method="post" action="" class="was-validated">
+<form method="post" action="" class="was-validated" onsubmit="return crud()" name = "form1">
 
 <div class="row" style="margin: 0">
 <div class="col-md" style="padding-left: 0; padding-right:10px">
 <div class="form-floating">
-  <input class="form-control" name="fname" placeholder="First Name" id="firstName" required></input>
+  <input class="form-control" name="fname" placeholder="First Name" id="firstName" onfocusout="fname_check()" required></input>
   <label for="firstName">First Name</label>
   <div class="invalid-feedback">
       Please provide name.
