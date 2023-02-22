@@ -14,6 +14,8 @@
     -->
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+    <script src="../layout/js/site.js"> </script>
 </head>
 <body>
 <div id="navbar">
@@ -41,7 +43,7 @@
                                 Tasks
                             </a>
                             <ul class="dropdown-menu dropdown-menu-end">
-                                <li><a class="dropdown-item" href="../layout/ex1.php">Exercise 1</a></li>
+                                <li><a class="dropdown-item" href="../layout/ex1.php">Exercise 1 + JS</a></li>
                                 <li><a class="dropdown-item" href="#">Exercise 2</a>
                                 </li>
                                 <li><a class="dropdown-item" href="../layout/variable.php">Exercise 3</a>
@@ -72,7 +74,7 @@
     <div class="col-sm-3" style="background-color: #1F2836; color: rgb(200,200,200);">
       <h3 style="margin-top:3px; margin-left:5px">List of Tasks</h3>
       <ul>
-        <li><a class= "lista" href="../layout/ex1.php">Exercise 1</a></li>
+        <li><a class= "lista" href="../layout/ex1.php">Exercise 1 + JS</a></li>
         <li><a class= "lista" href="#">Exercise 2</a></li>
         <li><a class= "lista" href="../layout/variable.php">Exercise 3</a></li>
         <li><a class= "lista" href="../layout/controlflow.php">Exercise 4</a></li>
